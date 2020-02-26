@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Singolo</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="singolo1.css">
     <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
-    <header class="header">
-        <div class="wrapper">
+<header class="header">
+    <div class="wrapper">
+        <div class="header-content">
             <div class="logo">Singolo<span class="logo-asterisk">*</span></div>
-            <nav class="header__navigation">
+            <nav class="header-navigation">
                 <ul class="navigation">
                     <li><a href="#">home</a></li>
                     <li><a href="#">services</a></li>
@@ -23,79 +24,77 @@
                 </ul>
             </nav>
         </div>
-        <div class="bottom-line bottom-line__header"></div>
-    </header>
-    <main>
+    </div>
+</header>
+<main>
+    <section class="slider">
         <div class="wrapper">
-            <section class="slider">
-                <div class="chev-ico">
-                    <img src="#" class="chev-ico__left" alt="Chevron left">
-                </div>
-                <div class="phone-picture__horizontal">
-                   <img src="#" alt="Phone picture horizontal">
+            <div class="slider-images">
+                <div class="chev-ico__left">
+                    <img src="assets/images/icons/chev-left.png" alt="Chevron left">
                 </div>
                 <div class="phone-picture__vertical">
-                    <img src="#" class="phone-picture__horizontal" alt="Phone picture vertical">
+                    <img src="assets/images/phones/iPhone_Vertical.png" class="phone-picture__horizontal" alt="Phone picture vertical">
                 </div>
-                <div class="chev-ico">
-                    <img src="#" class="chev-ico__right" alt="Chevron right">
+                <div class="phone-picture__horizontal">
+                    <img src="assets/images/phones/iPhone_Horizontal.png" alt="Phone picture horizontal">
                 </div>
-            </section>
-            <div class="bottom-line bottom-line__slider"></div>
-            <section class="our-services">
-                <h1>Our services</h1>
-                <div class="layout-3-column">
-                    <div class="service">
-                        <div class="service__icon">
-                            <span class="icon-round icon-round_pen"></span>
-                        </div>
-                        <h2>Custom Design</h2>
-                        <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in qua</p>
-                    </div>
-                    <div class="service">
-                        <div class="service__icon">
-                            <span class="icon-round icon-round_bulb"></span>
-                        </div>
-                        <h2>Inovative Ideas</h2>
-                        <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus</p>
-                    </div>
-                    <div class="service">
-                        <div class="service__icon">
-                            <span class="icon-round icon-round_heart"></span>
-                        </div>
-                        <h2>Love Is The Answer</h2>
-                        <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turp</p>
-                    </div>
-                    <div class="service">
-                        <div class="service__icon">
-                            <span class="icon-round icon-round_phone"></span>
-                        </div>
-                        <h2>Responsive Layout</h2>
-                        <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas bla</p>
-                    </div>
-                    <div class="service">
-                        <div class="service__icon">
-                            <span class="icon-round icon-round_bubble"></span>
-                        </div>
-                        <h2>24 / 7 Support</h2>
-                        <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus</p>
-                    </div>
-                    <div class="service">
-                        <div class="service__icon">
-                            <span class="icon-round icon-round_star"></span>
-                        </div>
-                        <h2>Feel Like A Star</h2>
-                        <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nib</p>
-                    </div>
+                <div class="chev-ico__right">
+                    <img src="assets/images/icons/chev-right.png" alt="Chevron right">
                 </div>
-            </section>
+            </div>
         </div>
-    </main>
-    <footer>
+    </section>
+    <section class="our-services">
         <div class="wrapper">
-            <div class="bottom-line bottom-line__footer"></div>
+            <h1>Our services</h1>
+            <div class="layout-3-column">
+                <div class="service">
+                    <div class="service__icon">
+                        <span class="icon-round icon-round_pen"></span>
+                    </div>
+                    <h2>Custom Design</h2>
+                    <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in qua</p>
+                </div>
+                <div class="service">
+                    <div class="service__icon">
+                        <span class="icon-round icon-round_bulb"></span>
+                    </div>
+                    <h2>Inovative Ideas</h2>
+                    <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus</p>
+                </div>
+                <div class="service">
+                    <div class="service__icon">
+                        <span class="icon-round icon-round_heart"></span>
+                    </div>
+                    <h2>Love Is The Answer</h2>
+                    <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turp</p>
+                </div>
+                <div class="service">
+                    <div class="service__icon">
+                        <span class="icon-round icon-round_phone"></span>
+                    </div>
+                    <h2>Responsive Layout</h2>
+                    <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas bla</p>
+                </div>
+                <div class="service">
+                    <div class="service__icon">
+                        <span class="icon-round icon-round_bubble"></span>
+                    </div>
+                    <h2>24 / 7 Support</h2>
+                    <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus</p>
+                </div>
+                <div class="service">
+                    <div class="service__icon">
+                        <span class="icon-round icon-round_star"></span>
+                    </div>
+                    <h2>Feel Like A Star</h2>
+                    <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nib</p>
+                </div>
+            </div>
         </div>
-    </footer>
+    </section>
+</main>
 
 </body>
 </html>
