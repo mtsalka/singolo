@@ -25,6 +25,7 @@
 
 .header-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -100,6 +101,7 @@
 
 .slider-images {
     display: flex;
+    flex-direction: row;
     position: relative;
     justify-content: center;
     flex-wrap: wrap;
@@ -131,26 +133,34 @@
 /*our services*/
 
 .our-services {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     height: 495px;
     background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
 
 }
 
+
 h1 {
+    display: block;
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
     font-weight: 900;
     text-align: left;
-
+    padding-top: 70px;
 }
 
 
-.bottom-line__service {
-    height: 6px;
-    background-color: #ffffff;
-
+.service-description {
+    display: inline-block;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 400;
+    padding-top: 30px;
 }
+
+
+
+
