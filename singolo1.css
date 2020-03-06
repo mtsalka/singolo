@@ -104,7 +104,6 @@
     flex-direction: row;
     position: relative;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .chev__left {
@@ -151,7 +150,7 @@ h1 {
 }
 
 
-.service-description {
+.services-description {
     display: inline-block;
     text-align: justify;
     font-size: 18px;
@@ -162,5 +161,49 @@ h1 {
 }
 
 
+.service-layout-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 30px;
+  margin: 10px;
+}
 
 
+.service-column {
+    display: flex;
+    flex: 1;
+  }
+
+
+.service-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 59px;
+    height: 59px;
+    border: 2px solid #666d89;
+    border-radius: 100%;
+    padding: 20px 20px;
+}
+
+.service-description-single {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.service-description-single h2 {
+    color: #666d89;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .service-description-single p {
+    color: #767e9e;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 10px;
+}
