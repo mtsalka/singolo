@@ -161,20 +161,23 @@ h1 {
 }
 
 
-.service-layout-row {
+.layout-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  padding-top: 30px;
-  margin: 10px;
+}
+
+.service-row {
+    padding-top: 30px;
+    margin: 10px;
 }
 
 
-.service-column {
+.layout-column {
     display: flex;
     flex: 1;
-  }
+}
 
 
 .service-icon {

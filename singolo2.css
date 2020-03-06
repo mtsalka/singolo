@@ -59,6 +59,7 @@
     display: flex;
     justify-content: space-between;
     padding-left: 0;
+    line-height: inherit;
 }
 
 .portfolio-tabs li {
@@ -93,4 +94,26 @@
 
 
 /* gallery pictures */
+
+.gallery {
+    padding-top: 22px;
+}
+
+
+.layout-row {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.gallery-row {
+    padding-bottom: 17px;
+}
+
+.layout-column {
+    display: flex;
+    flex: 1;
+}
 
