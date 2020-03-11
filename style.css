@@ -18,7 +18,7 @@
 
 /*header*/
 .header {
-    height: 90px;
+    height: 95px;
     background-color: #2d303a;
     border-bottom: 6px solid #323746;
 }
@@ -35,8 +35,9 @@
 .logo {
     padding-left: 0;
     justify-content: flex-start;
-    margin-left: 40px;
+    margin-left: 0px;
     font-size: 25px;
+    letter-spacing: -0.6px;
     line-height: 25px;
     font-weight: 700;
     color: #ffffff;
@@ -50,23 +51,27 @@
 
 .header-navigation {
     margin-right: 30px;
-    width: 371px;
     justify-content: space-evenly;
+    font-size: 25px;
+    letter-spacing: -0.6px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 .main-navigation {
     display: inline-flex;
-    margin-left: 0;
-    list-style-position: outside;
-    list-style-type: disc;
-    color: #f2f2f2;
+    text-align: center;
+    width: 371px;
+    padding-left: 29px;
+    list-style-type: none;
 }
 
 
 .main-navigation li {
     height: 30px;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-left: 33px;
 }
 
 .main-navigation li a {
@@ -123,8 +128,7 @@
 }
 
 .phone-vertical {
-    padding-top: 53px;
-    margin-right: 98px;    
+    padding-top: 53px; 
 }
 
 
@@ -132,14 +136,17 @@
 /*our services*/
 
 .our-services {
-    height: 495px;
+    height: 500px;
     background-color: #f2f2f2;
     border-bottom: 6px solid #ffffff;
 
 }
 
+.services-content {
+    margin-bottom: 52px;
+}
 
-h1 {
+.services-name {
     display: block;
     font-size: 30px;
     line-height: 18px;
@@ -147,6 +154,7 @@ h1 {
     font-weight: 900;
     text-align: left;
     padding-top: 70px;
+    text-transform: capitalize;
 }
 
 
@@ -154,7 +162,7 @@ h1 {
     display: inline-block;
     text-align: justify;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 26px;
     color: #767e9e;
     font-weight: 300;
     padding-top: 30px;
@@ -169,8 +177,7 @@ h1 {
 }
 
 .service-row {
-    padding-top: 30px;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -327,7 +334,7 @@ h1 {
     font-weight: 900;
     text-align: left;
     padding-top: 70px;
-
+    text-transform: capitalize;
 }
 
 .about-us-description {
@@ -524,6 +531,11 @@ button {
     color: #f0d8d9;
     margin: 0 6px 0 0;
     cursor: pointer;
+}
+
+.action-link {
+    color: #f0d8d9;
+    text-decoration: none;
 }
 
 
