@@ -76,12 +76,16 @@
     line-height: 12px;
     font-size: 12px;
     font-weight: 700;
+}
+
+.main-navigation li a {
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-.main-navigation li.active {
+
+li a.active {
     color: #ea676b;
 }
 
@@ -91,7 +95,7 @@
     margin-left: 0;
 }
 
-.main-navigation li:not(.active):hover {
+li a:not(.active):hover {
     color: #ea676b;
 }
 
