@@ -50,6 +50,7 @@
 
 
 .header-navigation {
+    padding-top: 10px;
     margin-right: 30px;
     justify-content: space-evenly;
     font-size: 25px;
@@ -72,10 +73,6 @@
 .main-navigation li {
     height: 30px;
     margin-left: 33px;
-}
-
-.main-navigation li a {
-    height: 100%;
     line-height: 12px;
     font-size: 12px;
     font-weight: 700;
@@ -84,15 +81,23 @@
     text-decoration: none;
 }
 
+.main-navigation li.active {
+    color: #ea676b;
+}
+
 
 .main-navigation li:first-child {
     list-style: none;
     margin-left: 0;
 }
 
-.main-navigation li a:hover {
+.main-navigation li:not(.active):hover {
     color: #ea676b;
 }
+
+
+
+
 
 
 /* slider content */
